@@ -1,0 +1,118 @@
+body {margin:0;}
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  background-color: #03a3df;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar img {
+  height: 5rem;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 2em;
+  margin-left: auto;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #444444;
+  color: black;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #3A3A3A;
+    margin: 0;
+    padding-bottom: 35rem;
+    position: relative;
+}
+main {
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+.facility {
+  display: flex;
+}
+
+.offers {
+  display: flex;
+  width: 75%;
+}
+
+.quick-signup {
+  width: 100rem;
+  border: 3px solid #ecb722
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-image: url(https://github.com/UWFront-End-Cert/html100/blob/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg?raw=true);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding: 5rem 0;
+}
+footer img {
+    margin-left: 7rem;
+    width: 25%;
+}
+footer ul {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+footer li {
+    display: inline;
+}
+footer li:after {
+    content: "/";
+    padding: 1rem;
+}
+footer li:last-of-type:after {
+    content: none;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.footer-main-text {
+    display: inline-block;
+    line-height: 200%;
+    width: 33%;
+    padding: 1rem 0;
+}
+
+.location {
+    display: inline;
+    padding: 1rem 0;
+}
+.location:after {
+    content: "|";
+    padding: 0 1rem;
+}
+.location:last-of-type:after {
+    content: none;
+}
