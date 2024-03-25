@@ -1,5 +1,16 @@
 body {margin:0;}
 
+hr {
+  background-color: #03a3df;
+  border-style: solid;
+}
+
+hr.bold {
+  border: 7px;
+  background-color: #03a3df;
+  border-style: solid;
+}
+
 .navbar {
   display: flex;
   overflow: hidden;
@@ -36,6 +47,14 @@ body {margin:0;}
 
 .padding {
   padding: 5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5rem;
+  grid-row-gap: 1rem;
+  color: #03a3df;
 }
 
 body {
